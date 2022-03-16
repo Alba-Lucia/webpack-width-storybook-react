@@ -4,6 +4,10 @@ body{
     font-weight: 700;
 }
 
+label{
+    margin-top: 50px;
+    margin-left: 50px;
+}
 
 .switch-on{
     display: inline-block;
