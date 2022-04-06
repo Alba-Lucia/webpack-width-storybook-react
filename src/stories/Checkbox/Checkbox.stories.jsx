@@ -1,7 +1,7 @@
 import Checkbox from "./Checkbox"
 import "./Checkbox.css"
 
-const Template = (args) => <Checkbox{...args}/>
+const Template = () => <Checkbox/>
 
 export default {
     title: 'Component/Checkbox',
@@ -11,7 +11,6 @@ export default {
 export const Default = Template.bind({});
 Default.args={
     children: (
-        "ToggleCheck",
         <input
             onClick
             type="checkbox"

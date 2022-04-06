@@ -5,11 +5,7 @@ import "./Checkbox.css"
 const Checkbox = () => {
     const [toggle, setToggle ] = useState(false);
     
-    const ToggleCheck = ()  => {
-        toggle ? setToggle(false) : setToggle(true)
-        console.log(toggle)
-    }
-    
+    const ToggleCheck = () => setToggle(!toggle)
 
   return (
     <label className={toggle ? "switch-on" : "switch-of"}>
