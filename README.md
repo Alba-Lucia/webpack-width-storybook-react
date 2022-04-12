@@ -1,1 +1,1 @@
-# webpack-width-storybook-react
+# Webpack with storybook and react
